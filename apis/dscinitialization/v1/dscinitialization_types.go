@@ -55,11 +55,6 @@ type DSCInitializationSpec struct {
 	// +operator-sdk:csv:customresourcedefinitions:type=spec,order=4
 	// +optional
 	TrustedCABundle *TrustedCABundleSpec `json:"trustedCABundle,omitempty"`
-	// Internal development useful field to test customizations.
-	// This is not recommended to be used in production environment.
-	// +operator-sdk:csv:customresourcedefinitions:type=spec,order=5
-	// +optional
-	DevFlags *DevFlags `json:"devFlags,omitempty"`
 }
 
 type Monitoring struct {
