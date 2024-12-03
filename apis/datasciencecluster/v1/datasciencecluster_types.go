@@ -48,8 +48,7 @@ type DataScienceClusterSpec struct {
 }
 
 type Components struct {
-	// Dashboard component configuration.
-	Dashboard dashboard.Dashboard `json:"dashboard,omitempty"`
+
 
 	// Workbenches component configuration.
 	Workbenches workbenches.Workbenches `json:"workbenches,omitempty"`
